@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+@font-face {
+    font-family: Tenor;
+    src: url(../font/TenorSans-Regular.ttf);
+    font-display: swap;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: Tenor;
+    background-color: #ebd0cf;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: lighter;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.align-center {
+    align-items: center;
+
+}
+
+.col-1 {
+    flex: 1 0 8.33%;
+    padding: 0;
+    min-width: 8.33%;
+}
+
+.col-2 {
+    flex: 1 0 16.66%;
+    padding: 0 15px;
+    min-width: 16.66%;
+}
+
+.col-3 {
+    flex: 1 0 25%;
+    padding: 0 15px;
+    min-width: 25%;
+}
+
+.col-4 {
+    flex: 1 0 33.33%;
+    padding: 0 15px;
+    max-width: 33.33%;
+}
+
+.col-5 {
+    flex: 1 0 41.66%;
+    padding: 0 15px;
+    max-width: 41.66%;
+}
+
+.col-6 {
+    flex: 1 0 50%;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.col-7 {
+    flex: 1 0 58.33%;
+    padding: 0 15px;
+    max-width: 58.33%;
+}
+
+.col-8 {
+    flex: 1 0 66.66%;
+    padding: 0 15px;
+    max-width: 66.66%;
+}
+
+.col-9 {
+    flex: 1 0 75%;
+    padding: 0 15px;
+    max-width: 75%;
+}
+
+.col-10 {
+    flex: 1 0 83.33%;
+    padding: 0 15px;
+    max-width: 83.33%;
+}
+
+.col-11 {
+    flex: 1 0 91.66%;
+    padding: 0 15px;
+    max-width: 91.66%;
+}
+
+.col-12 {
+    flex: 1 0 100%;
+    padding: 0 15px;
+    max-width: 100%;
+}
+
+.sm {
+    font-size: 27.83px
+}
+
+.med {
+    font-size: 56.65px;
+}
+
+.lg {
+    font-size: 89.85px;
+}
+
+.para {
+    font-size: 17.37px;
+    font-family: Tenor;
+    color: inherit;
+    font-weight: lighter;
+}
+
+/* layout */
+
+.wrap-1 {
+    color: rgb(74, 113, 99);
+    background-color: #ebd0cf;
+    position: relative;
+}
+
+.wrap-1 h1 a {
+    color: #fff;
+    background-color: #4a7163;
+    line-height: 40px;
+    display: inline-block;
+    width: 240px;
+    height: 40px;
+    text-align: center;
+}
+
+.wrap-1 nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.wrap-1 nav ul li {
+    margin: 0 5px;
+}
+
+.wrap-1 nav ul li a {
+    color: inherit;
+    display: block;
+    line-height: 80px;
+    padding: 0 25px;
+    font-size: 21.76px;
+}
+
+.icon {
+    color: #4a7163;
+    margin: 5px;
+}
+
+.wrap-1 {
+    border-bottom: 4px solid #4a7163;
+}
+
+.wrap-2 {
+    background-color: #ebd0cf;
+    color: #4a7163;
+    position: relative;
+}
+
+.home_page {
+    margin-top: 160px;
+    margin-bottom: 40px;
+}
+
+.botm {
+    margin-bottom: 48px;
+    margin-top: 40px;
+}
+
+.img-1 {
+    position: absolute;
+    top: 235px;
+    border-radius: 0px 50% 0px 0px;
+}
+
+.wrap-3 {
+    background-color: #4a7163;
+    color: #fff;
+}
+
+.wrap-3 p {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    line-height: 20px;
+    color: #ebd0cf;
+    margin-left: 65px;
+}
+
+.btn {
+    margin-bottom: 160px;
+    margin-left: 65px;
+}
+
+.btn-text {
+    font-size: 27.83px;
+    color: #4a7163;
+    font-family: Tenor;
+    width: 240px;
+    height: 50px;
+    padding: 10px;
+}
+
+.wrap-4 {
+    background-color: #ebd0cf;
+    color: #4a7163;
+    position: relative;
+}
+
+.wrap-4 h2 {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.wrap-4 h3 {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 50px;
+}
+
+.whats_new_img {
+    border-radius: 100px 100px 0px 0px;
+}
+
+.price {
+    text-transform: uppercase;
+    font-size: 17.38px;
+    text-align: center;
+}
+
+.wrap-5 {
+    background-color: #4a7163;
+    color: #ebd0cf;
+    padding-top: 130px;
+    position: relative;
+    margin-top: 140px;
+}
+
+.wrap-5 h3 {
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.wrap-5 h4 {
+    font-weight: normal;
+    margin-top: 13.5rem;
+}
+
+.wrap-5 p {
+    color: #cbbdb9;
+}
+
+.wrap-5 button {
+    margin-top: 50px;
+}
+
+.img2 {
+    position: relative;
+    z-index: 2;
+    padding-top: 193px;
+    padding-bottom: 200px;
+    border-radius: 0px 50% 0px 0px;
+}
+
+.shap {
+    width: 33%;
+    height: 1130px;
+    position: absolute;
+    background-color: #ebd0cf;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.farmergirl img {
+    width: 100%;
+    /* margin-left: -18%; */
+}
+
+.wrap-6 h2 {
+    color: #4a7163;
+    font-weight: normal;
+    line-height: 93px;
+}
+
+.wrap-6 p {
+    color: #809187;
+    font-weight: lighter;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.newly {
+    margin: auto 0;
+}
+
+.btn-nwly {
+    width: 285px;
+    color: #4a7163;
+    font-weight: normal;
+    font-size: 27.84px;
+    height: 50px;
+    border: 3px solid #4a7163;
+    font-family: Tenor;
+    background: transparent;
+}
+
+.wrap-7 {
+    background-color: #4a7163;
+    color: #ebd0cf;
+    padding: 35px;
+
+}
+
+.wrap-7 h3 {
+    text-align: center;
+}
+
+.wrap-7 p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 17.38px;
+    color: #cbbdb9;
+    text-align: center;
+    margin: 30px;
+    line-height: 25px;
+}
+
+.wrap-7 img {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.wrap-8 {
+    color: #4a7163;
+}
+
+.wrap-8 img {
+    display: block;
+    margin: 50px 0 50px 0;
+    /* margin-top:35px; */
+    border-radius: 25% 25% 0 0;
+}
+
+.wrap-8 h2 {
+    text-align: center;
+    display: block;
+    line-height: 93.06px;
+    line-height: 93px;
+    margin: 60px auto;
+}
+
+.wrap-8 h3 {
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+
+.wrap-8 p {
+    font-size: 17.38px;
+    text-align: center;
+}
+
+.wrap-8 button {
+    color: #ebd0cf;
+    background-color: #4a7163;
+    font-family: Tenor;
+    font-size: 27.84px;
+    width: 270px;
+    height: 50px;
+    border: none;
+    margin: 80px 0px 80px 40px;
+}
+
+.wrap-9 {
+    background-color: #4a7163;
+    color: #ebd0cf;
+    padding: 50px 0 50px 0;
+}
+
+.wrap-9 h2 {
+    font-size: 74.85px;
+    margin: 50px 0 0px 0;
+}
+
+.wrap-9 h3 {
+    font-size: 24.51px;
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+.wrap-9 p{
+    font-size:20.85px;
+    font-family: Tenor;
+    margin-top:80px;
+}
+.wrap-9 ul li {
+    list-style: none;
+}
+.wrap-9 ul li a {
+    color: inherit;
+    font-size: 20.85px;
+    margin: 10px 0 10px 0;
+    line-height: 35.29px;
+    padding: 18px;
+}
+.wrap-9 span{
+    color:#ebd0cf;
+}
