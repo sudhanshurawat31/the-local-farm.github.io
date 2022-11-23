@@ -8,7 +8,6 @@
     margin: auto;
 }
 
-
 @font-face {
     font-family: Tenor;
     src: url(../font/TenorSans-Regular.ttf);
@@ -21,7 +20,6 @@ button {
 
 a {
     text-decoration: none;
-
 }
 
 body {
@@ -35,6 +33,13 @@ h3 {
     font-weight: lighter;
 }
 
+.align-center {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+
 .row {
     display: flex;
     flex-flow: row wrap;
@@ -43,7 +48,6 @@ h3 {
 
 .align-center {
     align-items: center;
-
 }
 
 .col-1 {
@@ -136,6 +140,7 @@ h3 {
     color: inherit;
     font-weight: lighter;
 }
+
 
 /* layout */
 
@@ -294,7 +299,7 @@ h3 {
 
 .shap {
     width: 33%;
-    height: 1130px;
+    height: 100%;
     position: absolute;
     background-color: #ebd0cf;
     right: 0;
@@ -340,7 +345,6 @@ h3 {
     background-color: #4a7163;
     color: #ebd0cf;
     padding: 35px;
-
 }
 
 .wrap-7 h3 {
@@ -419,14 +423,17 @@ h3 {
     margin: 30px 0 30px 0;
     text-align: center;
 }
-.wrap-9 p{
-    font-size:20.85px;
+
+.wrap-9 p {
+    font-size: 20.85px;
     font-family: Tenor;
-    margin-top:80px;
+    margin-top: 80px;
 }
+
 .wrap-9 ul li {
     list-style: none;
 }
+
 .wrap-9 ul li a {
     color: inherit;
     font-size: 20.85px;
@@ -434,6 +441,571 @@ h3 {
     line-height: 35.29px;
     padding: 18px;
 }
-.wrap-9 span{
-    color:#ebd0cf;
+
+.wrap-9 span {
+    color: #ebd0cf;
 }
+
+
+
+
+/* ====================media query start here===================== */
+/* ======================================= */
+@media only screen and (max-width:1024px) {
+    .icon {
+        margin-right: 15px;
+    }
+
+    .lg {
+        font-size: 80px;
+    }
+
+    .botm {
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .wrap-2 h2 {
+        margin: 0px 0 0px 1px;
+    }
+
+    .wrap-2 h3 {
+        margin: 0px 0px 27px 15px;
+    }
+
+    .img-1 {
+        width: 30%;
+    }
+
+    .wrap-4 h2 {
+        font-size: 30px;
+        margin: 19px 0px 97px 51px;
+    }
+
+    .whats_new_img {
+        border-radius: 100px 100px 0px 0px;
+        width: 90%;
+    }
+
+    .price {
+        font-size: 14.38px;
+    }
+
+    .wrap-8 img {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .wrap-9 ul li a {
+        padding: 0px;
+    }
+}
+
+/* ====================================== */
+@media only screen and (max-width:991px) {
+    .wrap-1 nav ul li a {
+        font-size: 18.76px;
+    }
+
+    .wrap-9 ul li a {
+        font-size: 17.85px;
+    }
+
+    .wrap-9 h2 {
+        font-size: 60.85px;
+    }
+
+    .wrap-9 p {
+        text-align: center;
+    }
+
+    .img2 {
+        width: 400px;
+    }
+
+    .farmergirl img {
+        width: 450px;
+    }
+}
+
+
+/* ====================================== */
+@media only screen and (max-width:768px) {
+    .wrap-1 nav ul li a {
+        display: none;
+    }
+
+    .lg {
+        font-size: 60px;
+    }
+
+    .wrap-3 p {
+        margin-top: 10px;
+        margin-bottom: 22px;
+        line-height: 34px;
+        margin-left: 0px;
+        text-align: justify;
+        font-size: 17px;
+    }
+
+    .btn {
+        margin-bottom: 70px;
+        margin-left: 2px;
+    }
+
+    .wrap-4 h2 {
+        font-size: 23px;
+        margin: 5px 0px 60px 28px;
+    }
+
+    .whats_new_img {
+        border-radius: 65px 65px 0px 0px;
+    }
+
+    .img2 {
+        width: 300px;
+    }
+
+    .wrap-5 {
+        margin-top: 90px;
+    }
+
+    .farmergirl img {
+        width: 350px;
+    }
+
+    .wrap-6 h2 {
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .wrap-6 p {
+        text-align: justify;
+        font-size: 16px;
+    }
+
+    .btn-nwly {
+        width: 240px;
+        font-size: 24.84px;
+        height: 45px;
+    }
+
+    .wrap-7 h3 {
+        font-size: 20px;
+    }
+
+    .wrap-7 p {
+        font-size: 15.38px;
+        text-align: justify;
+        margin: 0px;
+        line-height: 25px;
+        padding: 10px;
+    }
+
+    .wrap-8 p {
+        font-size: 15.38px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .wrap-8 button {
+        margin: 80px 0px 80px 0px;
+    }
+
+    .wrap-9 h3 {
+        margin: 30px 0 27px 21px;
+        font-size: 19px;
+    }
+
+    .wrap-9 h2 {
+        font-size: 48.85px;
+    }
+
+    .wrap-9 ul li a {
+        font-size: 15px;
+    }
+
+    .wrap-9 p {
+        font-size: 14.85px;
+        margin-top: 30px;
+    }
+}
+
+/* ===================================== */
+@media only screen and (max-width:600px) {
+    .lg {
+        font-size: 45px;
+    }
+
+    .wrap-3 p {
+        margin-top: 0px;
+        margin-bottom: 6px;
+        line-height: 29px;
+        font-size: 15px;
+    }
+
+    .wrap-4 h2 {
+        font-size: 19px;
+        margin: 2px 0px 55px 14px;
+    }
+
+    .img2 {
+        width: 250px;
+    }
+
+    wrap-5 p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .wrap-5 button {
+        margin-top: 45px;
+    }
+
+    .farmergirl img {
+        width: 280px;
+    }
+
+    .wrap-6 h2 {
+        line-height: 50px;
+    }
+
+    .wrap-6 p {
+        font-size: 14px;
+    }
+
+    .btn-nwly {
+        width: 100%;
+        height: 51px;
+    }
+
+    .sm {
+        font-size: 22.83px;
+    }
+
+    .wrap-8 p {
+        font-size: 14.38px;
+        line-height: 23px;
+    }
+
+    .wrap-8 button {
+        margin: 80px 0px 80px -36px;
+    }
+
+    .wrap-9 ul li a {
+        font-size: 10px;
+    }
+
+    .wrap-9 h2 {
+        font-size: 39.85px;
+    }
+
+    .wrap-9 span {
+        font-size: 23px;
+        margin: 0;
+    }
+}
+
+/* ===================================== */
+@media only screen and (max-width:500px) {
+    .lg {
+        font-size: 35px;
+    }
+
+    .home_page {
+        margin-top: 40px;
+    }
+
+    .img-1 {
+        top: 150px;
+    }
+
+    .wrap-3 p {
+        line-height: 27px;
+        font-size: 12px;
+    }
+
+    .wrap-2 h3 {
+        margin: 0px 0px 27px 0px;
+    }
+
+    .btn {
+        margin-bottom: 12px;
+    }
+
+    .btn-text {
+        font-size: 21.83px;
+    }
+
+    .wrap-4 h3 {
+        margin-top: 40px;
+        line-height: 40px;
+    }
+
+    .wrap-4 h2 {
+        font-size: 16px;
+        margin: 0px 0px 53px 10px;
+    }
+
+    .whats_new_img {
+        border-radius: 40px 40px 0px 0px
+    }
+
+    .wrap-5 h4 {
+        font-weight: normal;
+        margin: 0;
+    }
+
+    .wrap-5 p {
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .wrap-5 button {
+        margin-top: 40px;
+    }
+
+    .btn-text {
+        width: 200px;
+        height: 43px;
+        padding: 6px;
+    }
+
+    .img2 {
+        width: 200px;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .farmergirl img {
+        width: 245px;
+    }
+
+    .wrap-6 h2 {
+        line-height: 40px;
+    }
+
+    .wrap-6 p {
+        text-align: justify;
+        font-size: 13px;
+    }
+
+    .btn-nwly {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 14px;
+        font-size: 18px;
+        border-radius: 20px
+    }
+
+    .wrap-7 h3 {
+        font-size: 12px;
+    }
+
+
+    .wrap-7 p {
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .wrap-8 h3 {
+        margin: 30px 9px 30px 6px;
+        text-align: center;
+    }
+
+    .wrap-8 button {
+        margin: 44px 0px 44px -60px
+    }
+
+    .wrap-9 .md {
+        max-width: 50%;
+        flex: 1 0 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .wrap-9 h3 {
+        margin: 14px;
+        margin-right: 84px;
+    }
+
+    .wrap-9 span {
+        padding: 0px 2px 0 17px;
+    }
+
+    .wrap-9 h2 {
+        font-size: 58.85px;
+        margin: 6px 0 25px 19px;
+        ;
+    }
+
+    .wrap-9 ul li {
+        list-style: inside;
+    }
+}
+
+
+/* ===================================== */
+@media only screen and (max-width:400px) {
+    .wrap-1 a {
+        display: none;
+    }
+
+    .wrap-1 .col-2 {
+        padding: 0px;
+    }
+
+    .col-6,
+    .col-3 {
+        max-width: 100%;
+        flex: 1 0 100%;
+    }
+
+    .sm {
+        font-size: 18.83px;
+    }
+
+    .wrap-4 h2 {
+        font-size: 12px;
+        margin: 0px 4px 40px 6px;
+    }
+
+    .shap {
+        width: 0;
+    }
+
+    .wrap-3 p {
+        line-height: 25px;
+        font-size: 9px;
+    }
+
+    .price {
+        font-size: 10.38px;
+    }
+
+    .whats_new_img {
+        border-radius: 28px 28px 0px 0px;
+    }
+
+    .img2 {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 26px;
+        border-radius: 10%;
+    }
+
+    .farmergirl img {
+        width: 100%;
+    }
+
+    .btn-nwly {
+        width: 43%;
+        height: 45px;
+        font-size: 17px;
+        border-radius: 20px;
+        display: flex;
+        margin: auto auto 34px auto;
+        padding: 10px;
+    }
+
+    .wrap-7 .lg {
+        text-align: center;
+    }
+
+    .wrap-8 h2 {
+        text-align: center;
+        line-height: 93.06px;
+        line-height: 40px;
+        margin: 20px;
+    }
+
+    .wrap-8 button {
+        margin: 40px 0px 44px -91px;
+        border-radius: 35px;
+    }
+
+    .wrap-9 .md {
+        max-width: 100%;
+        flex: 1 0 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .wrap-9 h2 {
+        font-size: 39.85px;
+        margin: -32px 0 26px -2px;
+    }
+
+    .wrap-9 h3 {
+        margin: 7px;
+        margin-right: 0;
+        display: flex;
+    }
+
+    .wrap-9 span {
+        padding: 0 3px 14px 17px;
+    }
+
+    .wrap-9 p {
+        font-size: 10.85px;
+        margin-top: 20px;
+    }
+}
+
+/* ====================================== */
+@media only screen and (max-width:320px) {
+    .wrap-2 .lg {
+        font-size: 12px;
+    }
+
+    .img-1 {
+        top: 70px;
+    }
+
+    .wrap-3 p {
+        line-height: 17px;
+        font-size: 9px;
+    }
+
+    .btn-text {
+        font-size: 16.83px;
+    }
+
+    .wrap-4 h3 {
+        margin-top: 7px;
+        line-height: 26px;
+    }
+
+    .wrap-4 .sm {
+        font-size: 13.83px;
+    }
+
+    .wrap-4 h2 {
+        font-size: 9px;
+        margin: 0px 0 24px 3px;
+    }
+
+    .price {
+        font-size: 6.38px;
+    }
+
+    .wrap-5 {
+        margin-top: 0;
+    }
+
+    .wrap-5 h3 {
+        margin-top: 9px;
+    }
+
+    .wrap-5 button {
+        border-radius: 8px;
+        margin: 28px auto 28px auto;
+    }
+
+    .btn-nwly {
+        width: 55%;
+    }
+
+    .wrap-8 button {
+        margin: 39px 0 31px -98px;
+    }
