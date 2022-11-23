@@ -846,7 +846,7 @@ h3 {
 
 
 /* ===================================== */
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:420px) {
     .wrap-1 a {
         display: none;
     }
